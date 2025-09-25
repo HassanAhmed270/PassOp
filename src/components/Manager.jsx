@@ -97,20 +97,19 @@ const Manager = () => {
 
     }
     const copyText = (text) => {
-        return () => {
-            navigator.clipboard.writeText(text);
-            toast('Copied to clipboard!', {
-                position: "top-right",
-                autoClose: 5000,
-                hideProgressBar: false,
-                closeOnClick: false,
-                pauseOnHover: true,
-                draggable: true,
-                progress: undefined,
-                theme: "light",
-            });
-        }
-    }
+    navigator.clipboard.writeText(text);
+    toast('Copied to clipboard!', {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: false,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+    });
+};
+
     return (
 
         <>
