@@ -9,7 +9,6 @@ const Navbar = () => {
         <span className="text-green-600">OP/&gt;</span>
         </div>
       <button className="text-white flex items-center gap-2 bg-green-600 px-4 py-1 rounded-full hover:bg-green-400">
-        <img className="w-8" src="src/svgs/github.svg" alt="User Icon" />
         <a href="https://github.com/HassanAhmed270/PassOp" target="_blank" rel="noopener noreferrer">Github</a>
       </button>
     </nav>

@@ -10,7 +10,7 @@ const Footer = () => {
         <span className="text-green-600">OP/&gt;</span>
         </div>
         <div className="flex gap-4 text-sm md:text-base">&copy; {new Date().getFullYear()} MyWebsite.
-        <span><img className="w-6" src="src/svgs/heart.svg" alt="Logo" /></span> All rights reserved.<span className="hidden md:block">Loacal Storage Managing For Hosting</span></div>
+        All rights reserved.<span className="hidden md:block">Loacal Storage Managing For Hosting</span></div>
         </div>
     </footer>
   );
