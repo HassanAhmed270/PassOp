@@ -23,12 +23,12 @@ const Manager = () => {
     const [passwordArray, setPasswordArray] = useState([]);
     const showPassword = () => {
         if (ref.current.src.includes("eye-slash")) {
-            ref.current.src = "src/svgs/eye.svg";
+            ref.current.src = "svgs/eye.svg";
             ref.current.alt = "Show";
             passRef.current.type = "text";
             return;
         }
-        ref.current.src = "src/svgs/eye-slash.svg";
+        ref.current.src = "svgs/eye-slash.svg";
         ref.current.alt = "Hide";
         passRef.current.type = "password";
     }
@@ -173,7 +173,7 @@ const Manager = () => {
                                     placeholder="Password"
                                 />
                                 <span className='absolute right-4 top-1/2 transform -translate-y-1/2 cursor-pointer' onClick={showPassword}>
-                                    <img ref={ref} src="src/svgs/eye.svg" width="24" height="24" alt="Show" /></span>
+                                    <img ref={ref} src="/svgs/eye.svg" width="24" height="24" alt="Show" /></span>
                             </div>
                         </div>
 
